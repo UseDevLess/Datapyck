@@ -9,7 +9,7 @@ before_install:
   - pip install -U pip
 
 install:
-  - pip install -r requirements.txt
+  - echo hi
   
 script:
   - echo hi
@@ -19,4 +19,4 @@ deploy:
   username: "__token__"
   password: "$PYPI_TOKEN"
   on:
-    branch: master
+    branch: main
